@@ -17,18 +17,18 @@
 // Note, Production and Sandbox can have the same key and secret, but it is not required
 // If connecting to other Salesforce environments, add a new entry to the array:
 //
-//$config["oauthConfigs"]["default"] = array(
-//                                            "login.salesforce.com" => array(
-//                                                "label" => "Production",
-//                                                "key" => "",
-//                                                "secret" => ""
-//                                            ),
-//                                            "test.salesforce.com" => array(
-//                                                "label" => "Sandbox",
-//                                                "key" => "",
-//                                                "secret" => ""
-//                                            )
-//                                        );
+$config["oauthConfigs"]["default"] = array(
+                                            "login.salesforce.com" => array(
+                                                "label" => "Production",
+                                                "key" => "",
+                                                "secret" => ""
+                                            ),
+                                            "wave-temp-poc-01-dev-ed.my.salesforce.com" => array(
+                                                "label" => "Wave PoC",
+                                                "key" => "3MVG9HxRZv05HarQZxC5aD6uD4HrGadsWp5oCm3nhIS2PbDOSo229a7Fn5OOxeyHJySQDCJ.LxX0cHnrmXD.9",
+                                                "secret" => "7522858471599090737"
+                                            )
+                                        );
 
 
 // CSRF SECURITY SETTINGS
